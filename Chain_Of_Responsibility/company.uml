@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="640.0" y="91.0">com.company.Operador</node>
+    <node x="444.0" y="91.0">com.company.LiderDeOperacoes</node>
+    <node x="772.0" y="91.0">com.company.GerenteDeFabrica</node>
+    <node x="164.0" y="91.0">com.company.CEO</node>
+    <node x="0.0" y="167.0">com.company.Main</node>
+    <node x="256.0" y="91.0">com.company.DiretorRegional</node>
+    <node x="0.0" y="91.0">com.company.DiretorGeral</node>
+    <node x="364.0" y="0.0">com.company.AbstractRole</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.CEO" target="com.company.AbstractRole">
+      <point x="0.0" y="-15.5" />
+      <point x="200.0" y="61.0" />
+      <point x="400.0" y="61.0" />
+      <point x="-36.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DiretorGeral" target="com.company.AbstractRole">
+      <point x="0.0" y="-15.5" />
+      <point x="72.0" y="51.0" />
+      <point x="376.0" y="51.0" />
+      <point x="-60.0" y="15.5" />
+    </edge>
+    <edge source="com.company.Operador" target="com.company.AbstractRole">
+      <point x="0.0" y="-15.5" />
+      <point x="696.0" y="61.0" />
+      <point x="472.0" y="61.0" />
+      <point x="36.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GerenteDeFabrica" target="com.company.AbstractRole">
+      <point x="0.0" y="-15.5" />
+      <point x="860.0" y="51.0" />
+      <point x="496.0" y="51.0" />
+      <point x="60.0" y="15.5" />
+    </edge>
+    <edge source="com.company.LiderDeOperacoes" target="com.company.AbstractRole">
+      <point x="0.0" y="-15.5" />
+      <point x="532.0" y="71.0" />
+      <point x="448.0" y="71.0" />
+      <point x="12.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DiretorRegional" target="com.company.AbstractRole">
+      <point x="0.0" y="-15.5" />
+      <point x="340.0" y="71.0" />
+      <point x="424.0" y="71.0" />
+      <point x="-12.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="474.0" y="99.0" />
+  <SelectedNodes>
+    <node>com.company.AbstractRole</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
